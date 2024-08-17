@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="body">
+    <nav>
+        <div class="logo">
+            <h1 id="title1">Data <span>Generator</span></h1>
+        </div>
+        <div class="sign">
+            <img id="img1" src="img/light-mode.png" onclick="light()" >
+            <img  id="img2" src="img/dark mode.png" onclick="dark()">
+            <button id="btn">Register</button>
+        </div> 
+    </nav>
+    
+    <div class="container">
+        
+        <div class="text1">
+            <h2 id="title2">Generate easely your user</h2>
+            <h1>Fake data</h1>
+        </div>
+        <div class="username">
+            <h4 id="title3">Create a username :</h4>
+            <div id="gen1" class="gen1">
+                <input type="text"  id="input1" placeholder="username">
+                <i id="icon1" onclick="copyuser()" class="fa-regular fa-copy" style="color: rgb(185, 185, 9);"></i>
+                
+            </div>
+            <button onclick="genee1()" id="btn1">Generate username</button>
+        </div>
+        <div class="password">
+            <h4 id="title4">Create a password :</h4>
+            <div id="gen2" class="gen1">
+                <input type="text"  id="input2" placeholder="password">
+                <i id="icon1" onclick="copypass()" class="fa-regular fa-copy" style="color: rgb(185, 185, 9);"></i>
+
+            </div>
+            <button id="btn2" onclick="genee2()">Generate password</button>
+        </div>
+    </div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

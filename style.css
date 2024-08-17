@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 30px 40px;
+}
+.logo span{
+    color: rgb(185, 185, 9);
+}
+.logo h1{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+}
+#img1{
+    width: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+    background: none;
+    transition: all 0.6s;
+}
+#img2{
+    width: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+    background: none;
+    transition: all 0.6s;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    display: none;
+}
+
+.sign img:hover{
+    transform: scale(1.2);
+}
+#btn{
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    color: white;
+    background-color: #414040;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: all 0.6s ;
+    cursor: pointer;
+    
+}
+#btn:hover{
+    border: 1px solid white;
+    color: white;
+    box-shadow: 0px 0px 6px whitesmoke;
+}
+
+#btn:focus{
+    border: 1px solid white;
+    color: white;
+    box-shadow: 0px 0px 6px whitesmoke;
+}
+
+
+.container{
+    padding: 30px 65px;
+    width: 100%;
+    min-height: 100%;
+
+}
+.text1{
+    margin-top: 30px;
+    width: 100%;
+}
+.text1 h2{
+    color: white;
+    letter-spacing: 1.5px;
+}
+.text1 h1{
+    font-size: 40px;
+    color: rgb(185, 185, 9);
+}
+.username{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+.username h4{
+    color: white;
+}
+.gen1{
+   margin-top: 20px;
+    width: 50%;
+    height: 70px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+#input1{
+    width: 90%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 24px;
+    align-items: center;
+}
+#input2{
+    width: 90%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 24px;
+    align-items: center;
+}
+#icon1{
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+#btn1{
+    margin-top: 15px;
+    padding: 5px 5px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    background-color: rgb(185, 185, 9);
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s border,box-shadow,color;
+    width: 200px;
+}
+#btn2{
+    margin-top: 15px;
+    padding: 5px 5px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    background-color: rgb(185, 185, 9);
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s border,box-shadow,color;
+    width: 200px;
+}
+.password{
+    margin-top: 40px;
+}
+.password h4{
+    color: white;
+}
+#btn1:hover{
+    border:1px solid rgb(185, 185, 9) ;
+    color: #333;
+    box-shadow: 0px 0px 6px whitesmoke;
+
+}#btn2:hover{
+    border:1px solid rgb(185, 185, 9) ;
+    color: #333;
+    box-shadow: 0px 0px 6px whitesmoke;
+
+}
+
+@media (max-width:870px) {
+    .gen1{
+        margin-top: 20px;
+         width: 80%;
+         height: 70px;
+         background-color: white;
+         border-radius: 15px;
+         display: flex;
+         align-items: center;
+         
+         
+     
+     }
+     
+     #input1{
+         width: 90%;
+         height: 100%;
+         border: 0;
+         outline: 0;
+         border-radius: 15px;
+         padding: 10px 15px;
+         font-size: 24px;
+         align-items: center;
+     }
+     #input2{
+         width: 90%;
+         height: 100%;
+         border: 0;
+         outline: 0;
+         border-radius: 15px;
+         padding: 10px 15px;
+         font-size: 24px;
+         align-items: center;
+     }
+}
+@media (max-width:630px) {
+    .gen1{
+        margin-top: 20px;
+         width: 100%;
+         height: 70px;
+         background-color: white;
+         border-radius: 15px;
+         display: flex;
+         align-items: center;
+         
+         
+     
+     }
+}
+@media (max-width:550px) {
+    .gen1{
+        margin-top: 20px;
+         width: 100%;
+         height: 70px;
+         background-color: white;
+         border-radius: 15px;
+         display: flex;
+         align-items: center;
+         
+         
+     
+     }
+     .logo{
+        margin: 30px 20px;
+    }
+    .logo h1{
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+    }
+    .container{
+        padding: 30px 25px;
+        width: 100%;
+        min-height: 100%;
+    
+    }
+    #btn{
+        display: none;
+    }
+    #img1{
+        width: 35px;
+        margin-right: 10px;
+        cursor: pointer;
+        background: none;
+        transition: all 0.6s;
+    }
+    #img2{
+        width: 35px;
+        margin-right: 10px;
+        cursor: pointer;
+        background: none;
+        transition: all 0.6s;
+        position: absolute;
+        top: 33px;
+        right: 28px;
+        display: none;
+    }
+
+}
+@media (max-width:440px) {
+    #img1{
+        width: 35px;
+        margin-right: 4px;
+        cursor: pointer;
+        background: none;
+        transition: all 0.6s;
+    }
+    #img2{
+        width: 35px;
+        margin-right: 4px;
+        cursor: pointer;
+        background: none;
+        transition: all 0.6s;
+        position: absolute;
+        top: 33px;
+        right: 28px;
+        display: none;
+    }
+    .logo h1{
+        font-size: 22px;
+    }
+    .text1 h2{
+        color: white;
+        letter-spacing: 1.5px;
+        font-size: 18px;
+    }
+    .text1 h1{
+        font-size: 30px;
+        color: rgb(185, 185, 9);
+        
+    }
+}
+
+
+
+
